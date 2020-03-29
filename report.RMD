@@ -2,7 +2,7 @@
 title: "Report on Gun Murders"
 author: "Rafael Irizarry"
 date: "`r format(Sys.Date())`"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +17,6 @@ We are going to use the following library:
 
 ```{r loading-libs, message=FALSE}
 library(tidyverse)
-getwd()
 ```
   
 and load the data we already wrangled:
